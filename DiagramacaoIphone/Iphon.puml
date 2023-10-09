@@ -1,0 +1,34 @@
+@startuml DiagramacaoIphone
+
+class Iphone{
+
+}
+
+class ReprodutorMusical{
+    +void tocar()
+    +void pausar()
+    +void SelecionarMusica()
+}
+
+class AparelhoTelefônico{
+    +void ligar()
+    +void atender()
+    +void iniciarCorreioVoz()
+}
+
+class NavegadorInternet{
+    +void exibirPagina()
+    +void adicionarNovaAba()
+    +void AtualizarPagina()
+}
+
+
+Iphone -up-> AparelhoTelefônico
+Iphone -up-> ReprodutorMusical
+Iphone -up-> NavegadorInternet
+
+
+
+
+
+@enduml
