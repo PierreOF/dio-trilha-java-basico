@@ -13,7 +13,6 @@ public class Contador {
             }
         }
     }
-
     static boolean VerificarParametros(int firstNumber , int secondNumber) throws ParametrosInvalidosException{
         boolean parametroValido = true;
         if (firstNumber>secondNumber) {
